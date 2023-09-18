@@ -15,7 +15,7 @@ const SideBarItem = ({
     return ( 
         <Link href={href} className={twMerge(`
             flex flex-row gap-4 items-center h-auto w-full text-md font-medium cursor-pointer hover:text-white transition text-neutral-400
-        `, active && "text-white")}>
+        `, active && "text-cyan-400")}>
             <Icon size={26} />
             <p className="truncate w-full">{label}</p>
         </Link>
