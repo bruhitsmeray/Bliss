@@ -3,13 +3,13 @@
 import { usePathname } from "next/navigation";
 import { useMemo } from "react"
 
-import { Home, Search, User } from "lucide-react"
+import { User } from "lucide-react"
 import { HiHome } from "react-icons/hi"
 import { BiSearch } from "react-icons/bi"
 
 import Box from "@/components/box";
 import SideBarItem from "./sidebar-item";
-import Library from "@/components/library";
+import Library from "@/components/sidebar/sidebar-library";
 
 interface SideBarProps {
     children: React.ReactNode
