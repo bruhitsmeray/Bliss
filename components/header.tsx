@@ -24,7 +24,7 @@ const Header = ({
 
     return ( 
         <div className={twMerge(`
-            bg-gradient-to-b from-cyan-800 px-6 py-1 h-fit
+            bg-gradient-to-b from-cyan-800 px-6 py-4 md:py-1 h-full md:h-fit
         `, className)}>
             <div className="flex items-center justify-between mb-4 w-full">
                 <div className="hidden md:flex gap-x-2 items-center">
@@ -49,7 +49,7 @@ const Header = ({
                             </Button>
                         </div>
                         <div>
-                            <Button onClick={() => {}} className="bg-white px-6 py-[0.15rem]">
+                            <Button onClick={() => {}} className="bg-white px-6 py-[0.3rem] md:py-[0.15rem]">
                                 Log in
                             </Button>
                         </div>
